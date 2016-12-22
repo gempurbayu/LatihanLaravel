@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Default Queue Driver
@@ -167,4 +166,5 @@ return [
 	'failed' => [
 		'database' => 'mysql', 'table' => 'failed_jobs',
 	],
+
 ];

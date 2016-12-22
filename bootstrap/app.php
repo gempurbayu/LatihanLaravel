@@ -43,15 +43,6 @@ $app->singleton(
 	'App\Http\Kernel'
 );
 
-$app->singleton(
-	'Illuminate\Contracts\Console\Kernel',
-	'App\Console\Kernel'
-);
-
-$app->singleton(
-	'Illuminate\Contracts\Debug\ExceptionHandler',
-	'App\Exceptions\Handler'
-);
 
 /*
 |--------------------------------------------------------------------------
