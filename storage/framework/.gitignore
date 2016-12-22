@@ -1,8 +1,14 @@
 config.php
 routes.php
+<<<<<<< HEAD
 schedule-*
+=======
+>>>>>>> origin/master
 compiled.php
 services.json
 events.scanned.php
 routes.scanned.php
+<<<<<<< HEAD
 down
+=======
+>>>>>>> origin/master

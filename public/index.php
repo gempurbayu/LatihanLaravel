@@ -1,10 +1,17 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package  Laravel
+<<<<<<< HEAD
  * @author   Taylor Otwell <taylor@laravel.com>
+=======
+ * @author   Taylor Otwell <taylorotwell@gmail.com>
+>>>>>>> origin/master
  */
 
 /*
@@ -40,17 +47,29 @@ $app = require_once __DIR__.'/../bootstrap/app.php';
 | Run The Application
 |--------------------------------------------------------------------------
 |
+<<<<<<< HEAD
 | Once we have the application, we can handle the incoming request
 | through the kernel, and send the associated response back to
+=======
+| Once we have the application, we can simply call the run method,
+| which will execute the request and send the response back to
+>>>>>>> origin/master
 | the client's browser allowing them to enjoy the creative
 | and wonderful application we have prepared for them.
 |
 */
 
+<<<<<<< HEAD
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
 $response = $kernel->handle(
     $request = Illuminate\Http\Request::capture()
+=======
+$kernel = $app->make('Illuminate\Contracts\Http\Kernel');
+
+$response = $kernel->handle(
+	$request = Illuminate\Http\Request::capture()
+>>>>>>> origin/master
 );
 
 $response->send();
